@@ -2,20 +2,35 @@ body {
     padding: 10px;
 }
 
+p {
+    font-size: 8px;
+}
+
+.forBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
 .gridDiv {
     display: flex;
     flex-direction: column;
-    background-color: red;
+    min-height: 880px;
+    border: 2px dotted lightskyblue;
 }
 
 .yBox {
     display: flex;
-    flex: auto;
-    border: 2px solid black;
+    flex: 1 1 auto;
 }
 
 .xBox {
     display: flex;
-    flex: auto;
-    border: 2px solid black;
+    flex: 1 1 auto;
 }
