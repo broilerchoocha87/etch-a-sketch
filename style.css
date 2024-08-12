@@ -1,5 +1,9 @@
 body {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -22,6 +26,7 @@ p {
     display: flex;
     flex-direction: column;
     min-height: 880px;
+    width: 960px;
     border: 2px dotted lightskyblue;
 }
 
