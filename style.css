@@ -1,0 +1,21 @@
+body {
+    padding: 10px;
+}
+
+.gridDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.yBox {
+    display: flex;
+    flex: auto;
+    border: 2px solid black;
+}
+
+.xBox {
+    display: flex;
+    flex: auto;
+    border: 2px solid black;
+}
